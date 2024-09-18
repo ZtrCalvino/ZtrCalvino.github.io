@@ -60,7 +60,7 @@ theme:
       primary: deep purple
       # 链接等可交互元件的高亮色
       # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color
-      accent: orange
+      accent: light green
       toggle:
         # 图标
         icon: material/weather-night
@@ -70,7 +70,7 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: teal
-      accent: orange
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: 切换至日间模式
