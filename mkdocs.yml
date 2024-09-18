@@ -1,20 +1,46 @@
 # [Info]
 # 左上角标题
-site_name: 过往十载游戏墓志铭
+site_name: 过往十载理学墓志铭
 site_url: https://ZtrCalvino.github.io
 site_author: 张陶然
 site_description: 张陶然的个人网站
 
 # [Navigtion]
 nav:
-  - 我:
-    - index.md
-    - Home.md
-  # - 游戏人:
-  # - 亚文化:
-  # - 绳与枪:
-  # - 意中象:
-  # - 网站:
+  - index.md
+  - 夜行人:
+    - 1Me/00index.md
+    - 1Me/01info.md
+    - 1Me/02chara.md
+    - 1Me/03exp.md
+    - 1Me/04skill.md
+  - 空骑士:
+    - 2Anim/00index.md
+    - 2Anim/01reco.md
+    - 2Anim/02shit.md
+    - 2Anim/03good.md
+    - 2Anim/04note.md
+    - 2Anim/y23q1.md
+    - 2Anim/y23q2.md
+    - 2Anim/y23q3.md
+    - 2Anim/y23q4.md
+    - 2Anim/y24q1.md
+    - 2Anim/y24q2.md
+    - 2Anim/y24q3.md
+  - 裂身者:
+    - 3Game/00index.md
+    - 3Game/01exp.md
+    - 3Game/02rev.md
+  - 树栖男:
+    - 4Note/00index.md
+    - 4Note/01method.md
+    - 4Note/02appr.md
+    - 4Note/03bee.md
+  # - 零时间:
+  #   - 5Tool/00index.md
+  #   - 5Tool/01hard.md
+  #   - 5Tool/02model.md
+  #   - 5Tool/03web.md
     # 访客打开网站第一个看到的是 docs/index.md
     # 构建网站时，不用管报错 "The following pages exist in the docs directory, but are not included in the "nav" configuration: index.md"
     # 如果访客之后想要重新看到这个界面，可以在 docs/WEBSITE/index.md 找到
@@ -27,7 +53,8 @@ theme:
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle
   palette:
     # 日间模式
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       # 主颜色
       # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
       primary: indigo
@@ -40,8 +67,9 @@ theme:
         # 鼠标悬浮提示
         name: 切换至夜间模式
     # 夜间模式
-    - scheme: slate
-      primary: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
       accent: orange
       toggle:
         icon: material/weather-sunny
@@ -101,6 +129,9 @@ extra:
     - name: Bilibili | りゅうめい废良
       icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/8299686
+    - name: Steam | 游戏猩红热狗屎
+      icon: fontawesome/brands/steam
+      link: https://steamcommunity.com/profiles/76561198347502371/
 
 # [Extensions]
 plugins:
@@ -152,6 +183,14 @@ markdown_extensions:
   # [Markdown footnote 语法支持]
   # https://squidfunk.github.io/mkdocs-material/reference/footnotes/
   - footnotes
+  - meta #自定义文章元数据
+  - pymdownx.caret #下划线
+  - pymdownx.mark #文本高亮
+  - pymdownx.tilde #删除线
+  - admonition #便利贴
+  - pymdownx.details #块折叠
+  - pymdownx.superfences #块嵌套
+  - pymdownx.tasklist        # 开启打勾功能
 
 extra_javascript:
   # [数学公式支持]
@@ -159,6 +198,14 @@ extra_javascript:
   - mkdocs/javascripts/katex.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  # 排序表格
+  - javascripts/tablesort.js
+  - https://code.jquery.com/jquery-3.7.1.min.js
+  # datatables表格
+  - https://cdn.datatables.net/2.0.2/js/dataTables.min.js
+  - https://cdn.datatables.net/plug-ins/2.0.2/i18n/zh.json
+  - assets/js/datatables.js
 extra_css:
   # [数学公式支持]
   # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
@@ -168,3 +215,5 @@ extra_css:
   - mkdocs/css/no-footer.css
   # 无序列表符号自定义
   - mkdocs/css/unordered-list-symbols.css
+  # datatables表格
+  - https://cdn.datatables.net/2.0.2/css/dataTables.dataTables.min.css

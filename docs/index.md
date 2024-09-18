@@ -1,17 +1,44 @@
-# Welcome to MkDocs
+# <p hidden><font size="1">蜘蛛巢</font>
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Ciallo～(∠・ω< )⌒☆
 
-## Commands
+欢迎来到张陶然的个人网站~
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+请通过主题和目录浏览文章，或直接搜索关键词查找文章
 
-## Project layout
+> 网站名Neta自卡尔维诺《未来千年文学备忘录》(又称《美国讲稿》)  
+> 各主题页名称也均Neta自卡尔维诺作品
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---
+
+## 教育经历
+
+- `2022.09 - 2025.06` [华东师范大学心理与认知科学学院](https://psy.ecnu.edu.cn/)
+    - 硕士 | 应用心理 | 人因工程与用户体验 
+    - 导师 [陈中廷](https://faculty.ecnu.edu.cn/_s9/czt/main.psp)
+    - 毕设 人物建模风格对社会应激的调节作用
+    - 相关课程 用户体验与可用性研究｜消费心理学｜现代研究技术｜互联网运营
+- `2017.09 - 2021.06` [武汉大学电子信息学院](http://eis.whu.edu.cn/)
+    - 本科 | 电子信息工程 | 人工智能班 
+    - 导师 [易本顺](http://210.42.122.152/index/szdwDetail?rsh=00007328&newskind_id=20160320222026165YIdDsQIbgNtoE)
+    - 毕设 不同光照条件下仪表字符识别方法设计与实现
+    - 相关课程 认知神经心理学｜机器学习｜数据结构｜图像处理
+
+---
+## 实习经历
+
+- `2024.09 - 2024.11`(预计) [网易互娱](https://game.163.com/)
+    - 关卡策划 | 萤火突击
+- `2024.07 - 2024.08` [盛趣游戏](https://www.shengqugames.com/cn/index)
+    - 用户体验研究 | 策划中心
+    - 访谈测试 游戏拆解 竞品分析
+- `2023.07 - 2024.03` [蔚来汽车](https://www.nio.cn/)
+    - 用户体验研究 | 产品体验部
+    - 问卷分析 访谈测试 数字看板
+
+---
+
+## 个人信息
+
+更多信息请查看 [个人介绍](./01ME/introduction.md)
+
