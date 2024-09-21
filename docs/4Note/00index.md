@@ -20,6 +20,13 @@
 
 [杂记](./03bee.md) 
 
+## 学步
+
+软件学习记录，meta demo
+
+[学步](./04demo.md) 
+
+
 ## 翻译
 
 偶尔翻译一些游戏设计相关视频，但都较为基础 [Bilibili](https://space.bilibili.com/8299686)
@@ -27,4 +34,3 @@
 ![](img/tr.jpg){width=50%}
 
 psyche of play栏目是想长期跟翻的，无奈效率太低，期望毕设和秋招忙完能大翻特翻
-
